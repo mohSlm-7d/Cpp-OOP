@@ -1,0 +1,12 @@
+﻿  COVID-patient.cpp
+  Date.cpp
+  In-patient.cpp
+  main.cpp
+C:\Users\M7md_2\Desktop\C++ Codes\Inheritance Assignment\main.cpp(8,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\M7md_2\Desktop\C++ Codes\Inheritance Assignment\main.cpp(14,9): warning C4101: 'amount': unreferenced local variable
+  Out-patient.cpp
+  Patient.cpp
+C:\Users\M7md_2\Desktop\C++ Codes\Inheritance Assignment\Patient.cpp(75,58): warning C4129: '/': unrecognized character escape sequence
+C:\Users\M7md_2\Desktop\C++ Codes\Inheritance Assignment\Patient.cpp(75,98): warning C4129: '/': unrecognized character escape sequence
+  Generating Code...
+  Inheritance Assignment.vcxproj -> C:\Users\M7md_2\Desktop\C++ Codes\Inheritance Assignment\Debug\Inheritance Assignment.exe

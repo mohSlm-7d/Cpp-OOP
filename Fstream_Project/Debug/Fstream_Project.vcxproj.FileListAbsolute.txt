@@ -1,0 +1,2 @@
+C:\Users\M7md_2\Desktop\C++ Codes\Fstream_Project\Debug\Fstream_Project.exe
+C:\Users\M7md_2\Desktop\C++ Codes\Fstream_Project\Debug\Fstream_Project.pdb
