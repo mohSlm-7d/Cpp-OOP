@@ -1,0 +1,6 @@
+﻿  Department.cpp
+  Managaer.cpp
+  Source.cpp
+C:\Users\M7md_2\Desktop\C++ Codes\Department and manager\Dept_AndManager\Source.cpp(7,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating Code...
+  Dept_AndManager.vcxproj -> C:\Users\M7md_2\Desktop\C++ Codes\Department and manager\Dept_AndManager\Debug\Dept_AndManager.exe

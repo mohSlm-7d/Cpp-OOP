@@ -1,0 +1,3 @@
+﻿  Main.cpp
+C:\Users\M7md_2\Desktop\C++ Codes\Author and book\Main.cpp(7,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Author and book.vcxproj -> C:\Users\M7md_2\Desktop\C++ Codes\Author and book\Debug\Author and book.exe
