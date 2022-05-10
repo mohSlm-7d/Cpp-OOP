@@ -1,0 +1,9 @@
+﻿  Source.cpp
+C:\Users\M7md_2\Desktop\C++\Input and Output\Source.cpp(13,1): warning C4305: 'return': truncation from 'double' to 'float'
+C:\Users\M7md_2\Desktop\C++\Input and Output\Source.cpp(39,22): error C2144: syntax error: 'float' should be preceded by ')'
+C:\Users\M7md_2\Desktop\C++\Input and Output\Source.cpp(39,1): error C2660: 'operation::addition': function does not take 0 arguments
+C:\Users\M7md_2\Desktop\C++\Input and Output\Source.cpp(11,8): message : see declaration of 'operation::addition'
+C:\Users\M7md_2\Desktop\C++\Input and Output\Source.cpp(39,22): error C2144: syntax error: 'float' should be preceded by ';'
+C:\Users\M7md_2\Desktop\C++\Input and Output\Source.cpp(39,1): error C2059: syntax error: ')'
+C:\Users\M7md_2\Desktop\C++\Input and Output\Source.cpp(39,1): error C2133: 'num': unknown size
+C:\Users\M7md_2\Desktop\C++\Input and Output\Source.cpp(45,1): warning C4326: return type of 'main' should be 'int' instead of 'void'

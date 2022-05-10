@@ -1,0 +1,83 @@
+#include<iostream>
+#include<string>
+#include"Account.h"
+using namespace std;
+Account::Account()
+{
+	admission_year = 2020;
+	cout << "Please enter the student ID: ";
+	cin >> student_ID;
+	if (student_ID / 10000 == 0 || student_ID / 100000 != 0)
+	{
+		do {
+			cout << "Please enter ID number with 4 digits." << endl;
+			cin >> student_ID;
+
+		} while (student_ID / 10000 == 0 || student_ID / 100000 != 0);
+	}
+	account_balance = 1;
+}
+Account::~Account() {
+	cout << "this is a destructor" << endl;
+}
+void Account::setfirst_name(string f) {
+	first_name = f;
+}
+void Account::setlast_name(string l) {
+	last_name = l;
+}
+void Account::setprogram_type(char p) {
+	program_type = p;
+}
+void Account::setaccount_balance(double a) {
+	account_balance = a;
+}
+void Account::setadmission_year(int y) {
+	admission_year = y;
+}
+string Account::getfirst_name() {
+	return first_name;
+}
+string Account::getlast_name() {
+	return last_name;
+}
+int Account::getstudent_ID() {
+	return student_ID;
+}
+char Account::getprogram_type() {
+	return program_type;
+}
+double Account::getaccount_balance() {
+	return account_balance;
+}
+int Account::getadmission_year() {
+	return admission_year;
+}
+void Account::print() {
+	cout << "First name: " << first_name << "\nLast name: " << last_name << "\nStudent ID: " << student_ID <<
+		"\nProgram type: " << program_type << "\nAccount balance: " << account_balance << "\nAdmission year: " << admission_year << endl;
+		
+}
+void Account::Enroll(int h) {
+	if (program_type == 'u') {
+		if (account_balance > 5000)
+			cout << "balance larger than 5,000 JDs" << endl;
+		else
+			account_balance = h * 100;
+	}
+	if (program_type == 'g') {
+		if (account_balance > 10000)
+			cout << "balance larger than 10,000 JDs" << endl;
+		else
+			account_balance = h * 200;
+	}
+}
+
+int Account::Payment(double pa) {
+	account_balance = account_balance - pa;
+	return account_balance;
+}
+void main()
+{
+
+}

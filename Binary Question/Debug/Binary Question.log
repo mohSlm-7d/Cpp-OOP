@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\M7md_2\Desktop\C++\Binary Question\Source.cpp(13,40): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\M7md_2\Desktop\C++\Binary Question\Source.cpp(17,47): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\M7md_2\Desktop\C++\Binary Question\Source.cpp(21,39): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\M7md_2\Desktop\C++\Binary Question\Source.cpp(44,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Binary Question.vcxproj -> C:\Users\M7md_2\Desktop\C++\Binary Question\Debug\Binary Question.exe

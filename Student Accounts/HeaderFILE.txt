@@ -1,0 +1,33 @@
+using namespace std;
+#ifndef Account_h
+#define Account_h
+class Account
+{
+private:
+	string first_name;
+	string last_name;
+	int student_ID;
+	char program_type;
+	double account_balance;
+	int admission_year;
+
+public:
+	Account();
+	~Account();
+	void setfirst_name(string f);
+	void setlast_name(string l);
+	void setprogram_type(char p);
+	void setaccount_balance(double a);
+	void setadmission_year(int y);
+	string getfirst_name();
+	string getlast_name();
+	int getstudent_ID();
+	char getprogram_type();
+	double getaccount_balance();
+	int getadmission_year();
+	void print();
+	void Enroll(int h);
+	int Payment(double pa);
+
+};
+#endif
